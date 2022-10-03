@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PointOne Technologies</title>
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/9acea6f878.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,52 +18,119 @@
         <nav class="navbar">
 
             <div class="nav-logo">
-                <h2 class="logo">Point <span>one</span> </h2>
+                <a href=""><img src="./Images/Logo.png" alt="Logo" class="image"></a>
             </div>
             
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">About Us <i class="fa-solid fa-caret-down"></i></a>
+            <ul>
+                <li><a href="" >Home</a></li>
+                <li >
+                    <a href="">About Us <i class="fa-solid fa-caret-down"></i></a>
 
-                    <div class="dropdown-menu">
-                        <ul class="nav-menu">
-                            <li class="nav-item"><a class="nav-link" href="">Company Profile</a></li>
-                            <li class="nav-item"><a  class="nav-link" href="#">Partners</a></li>
-                            <li class="nav-item"><a  class="nav-link" href="#">Clients</a></li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><a href="">Company Profiles</a></li>
+                        <li><a href="">Partners</a></li>
+                        <li><a href="">Clients</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Solutions  <i class="fa-solid fa-caret-down"></i></a>
+                <li >
+                    <a href="">Solutions  <i class="fa-solid fa-caret-down"></i></a>
 
+                    <ul>
+                        <li><a href="">Network Solutions <i class="fa-solid fa-caret-right"></i></a>
+                            <ul>
+                                <li><a href="">Network Design</a></li>
+                                <li><a href="">DataCenter Architecture</a></li>
+                                <li><a href="">Virtualization Solutions</a></li>
+                                <li><a href="">Network Security Solutions</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Storage/Archiving Solutions <i class="fa-solid fa-caret-right"></i> </a>
+                            <ul>
+                                <li><a href="">SAN</a></li>
+                                <li><a href="">NAS</a></li>
+                                <li><a href="">EDMS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Unified Communications <i class="fa-solid fa-caret-right"></i></a>
+                            <ul>
+                                <li><a href="">IP Telephony</a></li>
+                            <li><a href="">CustomerCare Solutions</a></li>
+                            <li><a href="">Telecom Infrastructures</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">IT Strategy <i class="fa-solid fa-caret-right"></i></a>
+                            <ul>
+                                <li><a href="">E-Commerce Solutions</a></li>
+                            <li><a href="">Portal Solutions</a></li>
+                            <li><a href="">ERP Solutions</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Managed Services <i class="fa-solid fa-caret-right"></i></a>
+                            <ul>
+                                <li><a href="">Proactive Maintenance</a></li>
+                                <li><a href="">SLA Support Contracts</a></li>
+                                <li><a href="">Remote and On-site Support</a></li>
+                                <li><a href="">IT Project Management</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
 
-                    <div class="dropdown-menu">
-                        <ul class="nav-menu">
-                            <li class="nav-item"><a class="nav-link" href="">Network Solutions <i class="fa-solid fa-caret-right"></i></a>
-                                <!-- <div class="dropdown-menu">
-                                    <ul class="nav-menu">
-                                        <li class="nav-item"><a class="nav-link" href="">Network Solutions</a></li>
-                                        <li class="nav-item"><a  class="nav-link" href="#">Partners</a></li>
-                                        <li class="nav-item"><a  class="nav-link" href="#">Clients</a></li>
-                                    </ul>
-                                </div> -->
-                            </li>
-                            <li class="nav-item"><a  class="nav-link" href="#">Partners</a></li>
-                            <li class="nav-item"><a  class="nav-link" href="#">Clients</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Careers</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Contact Us</a>
-                </li>
+                <li><a href="">Resources</a></li>
+
+                <li ><a href="">Careers</a></li>
+
+                <li ><a href="">Contact Us</a></li>
             </ul>
         </nav>
     </header>
+
+
+    <section class="wrapper">
+
+
+        <div class="item swiper-container">
+            <!-- Additional required wrapper -->
+            <h1 class="wrapper__title">Services</h1>
+            <div class="item__wrapper swiper-wrapper">
+              <!-- Slides -->
+                <div class="item__slide swiper-slide">
+                    <div class="item-img">
+                        <img src="./Images/Rack.jpg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="item__slide swiper-slide">
+                    <div class="item-img">
+                        <img src="./Images/Webo.Servers-scaled.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="item__slide swiper-slide">
+                    <div class="item-img">
+                        <img src="./Images/servers.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="item__slide swiper-slide">
+                    <div class="item-img">
+                        <img src="./Images/Wikimedia_Foundation_Servers-8055_35.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="item__pagination swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="item__prev swiper-button-prev"></div>
+            <div class="item__next swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="item__scrollbar swiper-scrollbar"></div>
+          </div>
+
+
+    </section>
 </body>
 </html>
